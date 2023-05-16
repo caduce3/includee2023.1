@@ -221,3 +221,41 @@ nav ul {
   margin-left: 10%;
 }
 
+@media (max-width: 900px) {
+  nav ul li a{
+    font-size: 18px;
+  }
+  nav img {
+    width: 150px;
+  }
+}
+
+@media (max-width: 600px) {
+  nav ul li a{
+    font-size: 12px;
+  }
+  #welcome {
+    margin-top: 70px;
+  }
+  nav img {
+    width: 120px;
+  }
+  nav {
+    height: 60px;
+  }
+}
+
+@media (max-width: 400px) {
+  nav ul li a{
+    font-size: 10px;
+  }
+  #welcome {
+    margin-top: 70px;
+  }
+  nav img {
+    width: 100px;
+  }
+  nav {
+    height: 60px;
+  }
+}
