@@ -43,7 +43,7 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    height: 95px;
+    height: 80px;
     z-index: 9999;
   }
 
@@ -212,4 +212,12 @@ footer svg {
   margin-bottom: -15px;
 }
 
+nav img {
+  width: 200px;
+}
+
+nav ul {
+  margin-right: 10%;
+  margin-left: 10%;
+}
 
