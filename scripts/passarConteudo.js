@@ -5,6 +5,7 @@ var previousBtn = document.getElementById("previousBtn");
 var nextBtn = document.getElementById("nextBtn");
 
 var progressBar = document.querySelector(".progress");
+var progressPoints = document.querySelectorAll(".progress-point");
 var progressWidth = 100 / totalContent;
 
 var hideContent = function() {
@@ -24,6 +25,9 @@ var updateButtons = function() {
 
 var updateProgressBar = function() {
     progressBar.style.width = (progressWidth * currentIndex) + "%";
+    for (var i = 0; i < progressPoints.length; i++) {
+        progressPoints[i].style.backgroundColor = i < currentIndex - 1 ? "#4CAF50" : "#f2f2f2";
+    }
 };
 
 var previousContent = function() {
@@ -33,7 +37,7 @@ var previousContent = function() {
         showContent(currentIndex);
         updateButtons();
         updateProgressBar();
-    }
+    }   
 };
 
 var nextContent = function() {
