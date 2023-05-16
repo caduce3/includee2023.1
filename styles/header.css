@@ -249,6 +249,9 @@ nav ul {
   nav ul li a{
     font-size: 10px;
   }
+  #img-camada {
+    margin-bottom: 100px;
+  }
   #welcome {
     margin-top: 150px;
   }
