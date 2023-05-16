@@ -171,8 +171,8 @@ body {
 }
 
 .btns {
-    width: 5vw;
-    height: 5vh;
+    width: 100px;
+    height: 50px;
     border-radius: 10px;
     border: none;
     margin-left: 5px;
@@ -250,7 +250,7 @@ nav ul {
     font-size: 10px;
   }
   #welcome {
-    margin-top: 70px;
+    margin-top: 90px;
   }
   nav img {
     width: 100px;
