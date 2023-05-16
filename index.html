@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <title>Include 2023.1</title>
+    
 </head>
 <body>
     <header>
@@ -17,7 +19,7 @@
                 <li> <img src="../assets/images/include.jpg" alt=""> </li>
                 <li><a href="#img-camada">Início</a></li>
                 <li><a href="#welcome">O que é o include?</a></li>
-                <li><a href="#">Programação</a></li>
+                <li><a href="#content1">Programação</a></li>
             </ul>
         </nav>
         
@@ -25,13 +27,52 @@
     <main>
         <section  class="boas-vindas">
             <h2 id="welcome">Welcome to your</h2>
-            <h1><span id="in">#IN</span>CLUDE 2023<span id="in">.</span>1</h1>
+            <h1 class='animate__animated animate__lightSpeedInLeft'><span id="in">#IN</span>CLUDE 2023<span id="in">.</span>1</h1>
+            <h2 id="date" class='animate__animated animate__lightSpeedInLeft' >SAVE THE <span id="in">DATE</span>: 25 MAI, 7am-11am.</h2>
             <p>Seja bem-vindo ao <span id="in">#INCLUDE</span>, um projeto que busca promover a inclusão e acessibilidade no ambiente acadêmico da Universidade do Estado do Rio Grande do Norte (UERN), especialmente na área da Ciência da Computação. Aqui, acreditamos que a tecnologia pode ser uma ferramenta poderosa para a inclusão, permitindo que todos tenham acesso a recursos educacionais e tecnológicos de qualidade.</p>
+        </section>
+        <section>
+            <h2>Programação</h2>
+            
+            <div class="timeline-content" id="content1">
+                <h2>Evento 1</h2>
+                <h3>8am - 9am</h3>
+                <img src="" alt="">
+                <p>Conteúdo do evento 1...</p>
+            </div>
+
+            <div class="timeline-content" id="content2">
+                <h2>Evento 2</h2>
+                <h3>9am - 10am</h3>
+                <img src="" alt="">
+                <p>Conteúdo do evento 2...</p>
+            </div>
+
+            <div class="timeline-content" id="content3">
+                <h2>Evento 3</h2>
+                <h3>10am - 11am</h3>
+                <img src="" alt="">
+                <p>Conteúdo do evento 3...</p>
+            </div>
+
+            <div class="timeline-content" id="content4">
+                <h2>Evento 4</h2>
+                <h3>11am - 12am</h3>
+                <img src="" alt="">
+                <p>Conteúdo do evento 4...</p>
+            </div>
+
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+
+            <button id="previousBtn">Anterior</button>
+            <button id="nextBtn">Próximo</button>
         </section>
     </main>
     <footer>
 
     </footer>
-
+    <script src="scripts/passarConteudo.js"></script>
 </body>
 </html>
