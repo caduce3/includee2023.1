@@ -62,7 +62,7 @@ body {
 
   nav img {
     width: 250px;
-    border-radius: 15px;
+    border-radius: 5px;
     margin: 1px;
     margin-left: -15%;
   }
@@ -252,12 +252,6 @@ nav ul {
 @media (max-width: 400px) {
   nav ul li a{
     font-size: 10px;
-  }
-  #img-camada {
-    margin-bottom: 150px;
-  }
-  #welcome {
-    margin-top: 200px;
   }
   nav img {
     width: 100px;
