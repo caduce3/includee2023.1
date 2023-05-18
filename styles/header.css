@@ -205,7 +205,7 @@ body {
   font-size: 3vw;
   font-weight: bold;
   text-align: center;
-  
+  margin-bottom: 10px;
 }
 
 footer svg {
@@ -223,6 +223,117 @@ nav ul {
 
 
 
+//MODAL
+
+#programacao button {
+  outline: none;
+  transition: 0.2s all;
+  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+}
+
+#programacao button:active {
+  transform: scale(0.98);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+.wrapper {
+  background-color: #093F7F;
+  border-radius: 10px;
+}
+
+.wrapper a {
+  
+  display: inline-block;
+  text-decoration: none;
+  padding: 15px;
+  background-color: #093F7F;
+  border-radius: 3px;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: 'Oswald', sans-serif;
+}
+
+
+
+.modal {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(77, 77, 77, 0.7);
+  transition: all 0.4s;
+}
+
+.modal:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.content {
+  border-radius: 4px;
+  position: relative;
+  width: 50%;
+  max-width: 90%;
+  background: #fff;
+  padding: 1em 2em;
+}
+
+.footer {
+  text-align: right;
+  margin-top: 50px;
+}
+
+.footer-btn-close {
+  width: 150px;
+  padding: 10px;
+  text-decoration: none;
+  background-color: #093F7F;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.content h1 {
+  color: #093F7F;
+}
+
+//TABELA
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+  font-size: 1.3vw;
+}
+
+tr {
+  color: #093F7F;
+  width: 20%;
+  
+}
+
+thead th {
+  background-color: #093F7F;
+  color: white;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+
+
+
+//RESPONSIVIDADE
 @media (max-width: 900px) {
   nav ul li a{
     font-size: 18px;
