@@ -339,6 +339,18 @@ th {
 }
 
 
+#tabela-invisivel{
+  display: none;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+#tabela-invisivel h2{
+  font-size: 4vw;
+  font-weight: bold;
+  text-align: center;
+  color: #093F7F;
+}
+
 
 
 //RESPONSIVIDADE
@@ -367,6 +379,14 @@ th {
   }
   nav {
     height: 60px;
+  }
+  #programacao {
+    display:none;
+  }
+  #tabela-invisivel{
+    margin-top: 5%;
+    display: table;
+    
   }
 }
 
