@@ -343,8 +343,8 @@ th {
 }
 #tabela-invisivel{
   display: none;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left:25%;
+  
 }
 #tabela-invisivel h2{
   font-size: 4vw;
@@ -365,7 +365,6 @@ th {
   }
   #programacao h2 {
     font-family: 'Oswald', sans-serif;
-    
   }
 }
 
@@ -374,7 +373,7 @@ th {
     font-size: 12px;
   }
   #welcome {
-    margin-top: 70px;
+    margin-top: 20%;
   }
   nav img {
     width: 120px;
