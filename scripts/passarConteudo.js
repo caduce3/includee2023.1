@@ -1,5 +1,5 @@
 var currentIndex = 1;
-var totalContent = 4;
+var totalContent = 6;
 
 var previousBtn = document.getElementById("previousBtn");
 var nextBtn = document.getElementById("nextBtn");

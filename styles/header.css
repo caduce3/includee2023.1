@@ -16,7 +16,6 @@ body {
 #img-camada img {
     display: block;
     width: 100%;
-    height: 100%;
     object-fit: cover;
   }
 
@@ -106,13 +105,14 @@ body {
   #welcome{
     font-size: 3vw;
     margin-bottom: 0;
-    margin-top: 20%;
+    margin-top: 10%;
   }
 
   #date {
     font-size: 3vw;
     margin-bottom: 0;
     margin-top: 0;
+    
   }
 
   .boas-vindas  h1{
@@ -221,6 +221,14 @@ nav ul {
   margin-left: 10%;
 }
 
+.timeline-content p {
+  font-size: 1.3vw;
+  text-align: center;
+}
+
+.timeline-content img {
+  width: 30vw;
+}
 
 
 //MODAL
