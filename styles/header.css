@@ -414,7 +414,7 @@ th {
   .boas-vindas {
     width: 100%;
   }
-  #welcome {
-    margin-top: 80px;
+  nav {
+    margin-bottom: 80px;
   }
 }
