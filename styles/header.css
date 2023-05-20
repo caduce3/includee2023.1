@@ -398,6 +398,7 @@ th {
   #link-pr {
     display: none;
   }
+
 }
 
 @media (max-width: 400px) {
@@ -411,6 +412,6 @@ th {
     height: 60px;
   }
   .boas-vindas {
-    margin-bottom: 5%;
+    width: 100%;
   }
 }
