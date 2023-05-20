@@ -411,10 +411,10 @@ th {
   nav {
     height: 50px;
   }
+  nav ul {
+    margin-bottom: 5%;
+  }
   .boas-vindas {
     width: 100%;
-  }
-  nav {
-    margin-bottom: 80px;
   }
 }
