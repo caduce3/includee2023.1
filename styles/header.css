@@ -343,7 +343,7 @@ th {
 }
 #tabela-invisivel{
   display: none;
-  margin-left:25%;
+  
   
 }
 #tabela-invisivel h2{
@@ -352,6 +352,10 @@ th {
   text-align: center;
   color: #093F7F;
 }
+#tabela-invisivel th, td {
+  font-size: 3vw;
+}
+
 
 
 
@@ -373,7 +377,7 @@ th {
     font-size: 12px;
   }
   #welcome {
-    margin-top: 20%;
+    margin-top: 70px;
   }
   nav img {
     width: 120px;
@@ -405,5 +409,8 @@ th {
   }
   nav {
     height: 60px;
+  }
+  .boas-vindas {
+    margin-bottom: 5%;
   }
 }
