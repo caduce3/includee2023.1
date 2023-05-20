@@ -1,0 +1,84 @@
+#navbar-bots {
+    background-color: #093F7F!important;
+    
+}
+
+#navbar-bots a {
+    color: #fff!important;
+    font-size: 1.5vw;
+}
+
+.container-fluid {
+    margin-left: 20%   !important;  
+}
+
+.navbar-toggler-icon {
+    color: white;
+    
+}
+
+.nav-item {
+    background-color: #093F7F!important;
+    width: 15vw;
+    text-align: center;
+    border-radius: 1px;
+}
+
+.carousel-item img {
+    width: 30vw!important;
+    border: 3px solid #093F7F!important;
+    border-radius: 5px;
+    margin: auto;
+}
+
+#carouselExampleCaptions {
+    text-align: center;
+}
+
+.carousel-item p{
+   font-family: 'Oswald', sans-serif!important;
+   font-size: 1.3vw!important;
+   color: #093F7F!important;
+   width: 50vw!important;
+   margin: auto!important;
+   margin-top: 20px !   important;
+}
+
+.carousel-control-next {
+    
+}
+
+#carosel h2 {
+    color: #093F7F!important;
+    font-weight: bold;
+    font-size: 3vw!important;
+}
+
+.btn {
+    background-color: #093F7F!important;
+    border-radius: 10px!important;
+    color: white!important;
+    width: 20vw!important;
+    font-size: 1.5vw!important;
+}
+
+.btn:hover {  
+    background-color: white!important;
+    border-radius: 10px!important;
+    color: #093F7F!important;
+    border: 1px solid #093F7F!important;
+}
+
+.carousel-item h4, .carousel-item h3 {
+    color: #093F7F!important;
+    font-weight: bold;
+    font-size: 2vw!important;
+}
+
+.modal-content {
+    width: 90vw!important;
+    position: absolute!important;
+    top: 50vh!important;
+    left: 50%!important;
+    transform: translate(-50%, -50%)!important;
+}
