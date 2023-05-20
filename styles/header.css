@@ -409,9 +409,12 @@ th {
     width: 100px;
   }
   nav {
-    height: 60px;
+    height: 50px;
   }
   .boas-vindas {
     width: 100%;
+  }
+  #welcome {
+    margin-top:60px;
   }
 }
