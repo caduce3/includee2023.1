@@ -332,12 +332,6 @@ table {
   border: 1px solid #093F7F;
 }
 
-//coloque borda em todas as células, exceto na primeira linha e na primeira coluna
-
-
-
-
-
 //RESPONSIVIDADE
 @media (max-width: 900px) {
   nav ul li a{
@@ -354,6 +348,9 @@ table {
   }
   .content {
     margin-top: 10%;
+  }
+  .carousel-item p{
+    font-size: 16px!important;
   }
 
 }
@@ -374,6 +371,9 @@ table {
   table td, th {
     font-size: 14px;
   }
+  .carousel-item p{
+    font-size: 12px!important;
+  }
   
 }
 
@@ -382,15 +382,20 @@ table {
   #welcome {
     margin-top: 40px;
   }
-
-  
 }
 
-@media (max-width: 385px) {
+@media (max-width: 380px) {
 
   #welcome {
     margin-top: 20px;
   }
-
-  
 }
+
+@media (max-width: 280px) {
+
+  #welcome {
+    margin-top: 10px;
+  }
+}
+
+
