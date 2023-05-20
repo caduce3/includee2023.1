@@ -352,7 +352,10 @@ th {
   text-align: center;
   color: #093F7F;
 }
-#tabela-invisivel th, td {
+#tabela-invisivel th {
+  font-size: 3vw;
+}
+#tabela-invisivel td {
   font-size: 3vw;
 }
 
