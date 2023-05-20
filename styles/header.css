@@ -274,7 +274,7 @@ nav ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(77, 77, 77, 0.7);
+  
   transition: all 0.4s;
 }
 
@@ -293,6 +293,7 @@ nav ul {
   max-width: 90%;
   background: #fff;
   padding: 1em 2em;
+  
 }
 
 .footer {
@@ -379,6 +380,9 @@ th {
   #welcome {
     margin-top: 0px;
   }
+  .content {
+    margin-top: 10%;
+  }
 }
 
 @media (max-width: 600px) {
@@ -407,6 +411,7 @@ th {
   #link-pr {
     display: none;
   }
+
 
 }
 
