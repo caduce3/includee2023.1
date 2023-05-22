@@ -56,7 +56,7 @@ body {
   nav ul a {
     color: #ffffff;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1.5vw;
   }
 
   nav img {
@@ -332,11 +332,12 @@ table {
   border: 1px solid #093F7F;
 }
 
+
+
+
 //RESPONSIVIDADE
 @media (max-width: 900px) {
-  nav ul li a{
-    font-size: 18px;
-  }
+ 
   nav img {
     width: 150px;
   }
@@ -356,9 +357,7 @@ table {
 }
 
 @media (max-width: 600px) {
-  nav ul li a{
-    font-size: 12px;
-  }
+
   #welcome {
     margin-top: 55px;
   }
