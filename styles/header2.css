@@ -65,6 +65,21 @@
     border: 1px solid #093F7F!important;
 }
 
+#btn-insc {
+    background-color: #093F7F!important;
+    border-radius: 10px!important;
+    color: white!important;
+    width: 20vw!important;
+    font-size: 1.5vw!important;
+}
+
+#btn-insc:hover{
+    background-color: white!important;
+    border-radius: 10px!important;
+    color: #093F7F!important;
+    border: 1px solid #093F7F!important;
+}
+
 .carousel-item h4, .carousel-item h3 {
     color: #093F7F!important;
     font-weight: bold;
