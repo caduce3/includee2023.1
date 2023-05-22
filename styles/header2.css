@@ -70,7 +70,8 @@
     border-radius: 10px!important;
     color: white!important;
     width: 20vw!important;
-    font-size: 1.5vw!important;
+    height: 7vh!important;
+    font-size: 2vw!important;
 }
 
 #btn-insc:hover{
